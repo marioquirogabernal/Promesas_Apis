@@ -1,0 +1,16 @@
+.card {
+    width: 18rem; /* Todas las tarjetas tendrán el mismo ancho */
+    height: auto; /* Ajusta la altura según el contenido */
+}
+
+.card-img-top {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho de la tarjeta */
+    height: 250px; /* Altura fija para todas las imágenes */
+}
+
+#divProductos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 1rem; /* Espaciado entre tarjetas */
+}
